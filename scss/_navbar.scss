@@ -1,0 +1,72 @@
+/*===== Screen color Mood CSS =====*/
+.main-wrapper {
+  background-color: var(--bg-secondary);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 90;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+}
+
+.header-left,
+.header-right{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 22px;
+  
+}
+
+.header-left a{
+  color: var(--text);
+  gap: 4rem;
+}
+
+.header-left a:hover{
+  color: var(--clr-orange);
+}
+.header-right a{
+  border-radius: 50px;
+  background-color: var(--clr-gray-dark);
+  color: var(--text);
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .main-wrapper{
+    height: auto;
+    border-radius: 0 0 5px 5px;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .header-left {
+    width: fit-content;
+    gap: 15px;
+  }
+  .header-right{
+    font-size: 16px;
+  }
+}
+
+
+/* --------------widget-whatsapp-------------- */
+
+.whatsapp{
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 70px;
+  z-index: 1;
+  height: auto;
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .whatsapp{
+    display: inline-block;
+  }
+}

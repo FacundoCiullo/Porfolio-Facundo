@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Facundo Ciullo, facundonahuel.ciullo@gmail.com">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" type="icon" href="./img/favicon.png">
+    <title>Facundo Ciullo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/primeflex@^3/primeflex.css">
+    <link rel="stylesheet" href="https://unpkg.com/primeflex/themes/saga-blue.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3f17f1dac.js" crossorigin="anonymous"></script>
+  </head>
+<body id="home">
+  <div class="whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=5491136968683&text=Hola! me gustaría pedir información sobre servicios web." target="_blank">
+        <img src="./img/widget-whatsapp.svg" class="img-fluid" width="45rem" alt="ícono de whatsaap">
+    </a>
+  </div>
+    <!-----------------------Aside -->
+    
+  <aside class="aside" >
+    <div class="sidebar ">
+      <div class="logo-details">
+        
+        <div class="logo_name"> Menu </div>
+        <i class="bi bi-list" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        
+        <li>
+          <a href="#home">
+            <i class="bi bi-house"></i>
+            <span class="links_name">Inicio</span>
+          </a>
+          <span class="tooltip">Inicio</span>
+        </li>
+        <li>
+          <a href="#about">
+            <i class="bi bi-person-circle"></i>
+            <span class="links_name">Sobre mi</span>
+          </a>
+          <span class="tooltip">Sobre mi</span>
+        </li>
+        <li>
+          <a href="#services">
+            <i class="bi bi-columns-gap"></i>
+            <span class="links_name " >Servicios</span>
+          </a>
+            <span class="tooltip">Servicios</span>
+        </li>
+        <li>
+          <a href="#portfolio">
+            <i class="bi bi-folder"></i>
+            <span class="links_name">Portfolio</span>
+          </a>
+          <span class="tooltip">Portfolio</span>
+        </li>
+        <li>
+          <a href="#certificates">
+            <i class="bi bi-card-text"></i>
+            <span class="links_name">Certificados</span>
+          </a>
+          <span class="tooltip">Certificados</span>
+        </li>
+        <li>
+          <a href="#contact">
+            <i class="bi bi-chat"></i>
+            <span class="links_name">Contacto</span>
+          </a>
+          <span class="tooltip">Contacto</span>
+        </li>
+        <li>
+          <a >
+            <i id="toggle-icon" class="bi bi-toggle2-on"></i>
+            <span class="links_name">Modo</span>
+          </a>
+          <span class="tooltip">Modo</span>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <!-----------------------Main -->
+  <main >
+          <!-- Var top Area -->
+    <header >
+      <div class="main-wrapper">
+        <div class="header-left">
+          <a href="https://www.linkedin.com/in/facundo-ciullo/" target="_blank" aria-label="Ir a linkedin">
+            <i class='bi bi-linkedin'></i></a>
+          <a href="https://github.com/FacundoCiullo" target="_blank" aria-label="Ir a github">
+            <i class='bi bi-github'></i></a>
+          <a href="https://www.instagram.com" target="_blank" aria-label="Ir a instagram">
+            <i class='bi bi-instagram' ></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5491136968683&text=Hola! me gustaría pedir información sobre servicios web." target="_blank" aria-label="Ir a whatsapp">
+            <i class='bi bi-whatsapp' ></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5491136968683&text=Hola! me gustaría pedir información sobre servicios web." target="_blank" aria-label="Ir a whatsapp">
+            <i class='bi bi-telephone-inbound' ></i></a>
+        </div>
+        <div class="header-right">
+        </div>
+      </div>
+    </header>
+
+  <!-----------------------HOME -->
+    <div class="home">
+      <div class="container">
+        <section class="home__page flex align-items-center justify-content-center  xl:justify-content-between grid grid-nogutter">
+          <div class="left__content col-12 xl:col-6 ">
+            <div class="message__bubble triangle mb-4 md:mb-2">
+              <div class="message__text p-2 sm:p-3 text-center ">
+                <a  href="#about" 
+                class="cursor-pointer no-underline "><span><h3> Hola, yo soy</h3></span> </a> 
+              </div>
+            </div>
+              <h1 class="text-3xl sm:text-5xl md:text-7xl"> Facundo Ciullo</h1>
+              <p class="">
+                Profesional en desarrollo Front-End, diseño gráfico y marketing digital
+              </p>
+            <div class="home__buttons flex align-items-center justify-content-center gap-3 mt-4">
+
+              <a href="./img/CV-Developer-Facundo-Ciullo.pdf" aria-label="Descargar curriculum"
+              class="cursor-pointer no-underline btn tres" download><span>Curriculum <i class="bi bi-download"></i></span></a>
+              <a  href="#portfolio" 
+              class="cursor-pointer no-underline btn dos"><span>Portfolio <i class="bi bi-arrow-bar-right"></i></span> </a> 
+            </div>
+          </div>
+
+          <!-----------------------grafic img -->
+          <div class="grid-container col-12 xl:col-6">
+            <div class="graphic">
+              <img class="graphic-man" src="/img/foto-perfil2.png" alt="humo">
+              <div class="graphic-circles absolute">
+                <img class="graphic-logo absolute " src="/img/foto-perfil4.png" alt=""/>
+                <img class="graphic-circles-1 absolute" src="/img/circulo-1.png" alt=""/>
+                <img class="graphic-circles-2 absolute" src="/img/circulo-2.png" alt=""/>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+<!-----------------------about -->
+
+    <div class="container" >
+      <section id="about" class="about__me text-center" >
+        <div class="about__info w-full" >
+          <h1 class="text-3xl md:text-5xl text-center"">Sobre mí</h1>
+          <p class="row">
+            ¡Hola! Soy Facundo un apasionado diseñador gráfico, profesional en marketing y desarrollador front-end. Con una combinación única de habilidades creativas y técnicas, me dedico a crear experiencias visuales impactantes y funcionales en el mundo digital.
+          </p>
+          <p class="col">
+            Como diseñador gráfico, mi objetivo es transmitir ideas y conceptos a través de imágenes y elementos visuales. Utilizo mi creatividad y conocimientos técnicos para desarrollar logotipos, gráficos, ilustraciones y diseños de interfaces que capturan la esencia de una marca y conectan con su audiencia objetivo. Mi enfoque se basa en la comprensión profunda de los principios del diseño, combinada con la capacidad de adaptarme a las últimas tendencias y herramientas en la industria.
+          </p>
+          <img src="/img/marketing.svg" alt="">
+          <p class="row">
+            Además de mi experiencia en diseño gráfico, cuento con una sólida formación en marketing. Esto me permite comprender las necesidades y objetivos de los clientes desde una perspectiva comercial. Utilizo estrategias de marketing efectivas para crear campañas y materiales promocionales que no solo se vean bien, sino que también generen resultados tangibles y ayuden a alcanzar los objetivos de negocio.
+          </p>
+          <img src="/img/Code-orange.svg" alt="">
+          <p class="col">
+            Como desarrollador front-end, utilizo mi conocimiento de HTML, CSS y JavaScript para crear sitios web interactivos y atractivos. Me apasiona la usabilidad y la experiencia del usuario, y siempre busco encontrar la combinación perfecta entre diseño visualmente atractivo y funcionalidad intuitiva.
+          </p>
+          
+          <p class="row">
+            En resumen, mi experiencia me permite ofrecer soluciones creativas y efectivas que ayudan a las marcas a destacarse en un mundo digital cada vez más competitivo.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-----------------------------------------------------------------SERVICES -->
+    <div class="container" id="services">
+      <section class="services min-h-full w-full pb-7" >
+        <div class="services__title flex flex-column gap-3 text-center">
+          <h2 class="text-3xl md:text-5xl">Tecnologias</h2>
+          <p class="text-sm md:text-base">
+          Actualmente me encuentro desarrollando en las siguientes tecnologias y servicios
+          </p>
+        </div>
+        <div class="services__card w-full grid grid-nogutter mt-5 gap-3 ">
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/dusk/40/web.png" alt="web"/>
+            </div>
+            <div class="service__name">
+              <p>Desarrollo web</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/color/40/html-5--v1.png" alt="html-5--v1"/>
+            </div>
+            <div class="service__name">
+              <p>HTML
+              </p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/color/40/css3.png" alt="css3"/>
+            </div>
+            <div class="service__name">
+              <p>CSS - SCSS</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/color/40/javascript--v1.png" alt="javascript--v1"/>
+            </div>
+            <div class="service__name">
+              <p>Javas Cript</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/officel/40/react.png" alt="react"/>
+            </div>
+            <div class="service__name">
+              <p>React Js</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/color/40/figma--v1.png" alt="figma--v1"/>
+            </div>
+            <div class="service__name">
+              <p>Figma</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/color/40/typescript.png" alt="typescript"/>
+            </div>
+            <div class="service__name">
+              <p>Typescript</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/fluency/40/000000/node-js.png" alt="node-js"/>
+            </div>
+            <div class="service__name">
+              <p>Node Js</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/color/40/mongodb.png" alt="mongodb"/>
+            </div>
+            <div class="service__name">
+              <p>Mongo DB</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/color/40/firebase.png" alt="firebase"/>
+            </div>
+            <div>Firebase</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/color/40/adobe-photoshop--v1.png" alt="adobe-photoshop--v1"/>
+            </div>
+            <div>Photoshop CC</p>
+            </div>
+          </div>
+
+          <div class="card flex align-items-center col-12 sm:col-6 lg:col-3 gap-3 p-2">
+            <div class="service__logo flex align-items-center justify-content-center ">
+              <img width="40" height="40" src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/40/external-paint-fine-arts-flatart-icons-lineal-color-flatarticons.png" alt="external-paint-fine-arts-flatart-icons-lineal-color-flatarticons"/>
+            </div>
+            <div class="service__name">
+              <p> Diseño Gráfico
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+  <!-----------------------------------------------------------------PORTFOLIO -->
+    <div class="container" id="portfolio" >
+      <div class="services__title w-full  flex flex-column gap-5 text-center">
+        <h2 class="text-3xl md:text-5xl">Portfolio</h2>
+        <p class="text-sm md:text-base">
+        Algunos de mis trabajos más recientes
+        </p>
+      </div>
+      <section class="portfolio" >
+
+        <div class="portfolio__card" style="width: 18rem;">
+          <a href="https://cerveceriaconsoli.netlify.app">
+            <img src="/img/consoli.png" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Cerveceria Concoli</h5>
+            <p class="card-text">Una cerveceria artesanal familiar, que ofrece servicios y venta de bebidas.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body">2023</small>
+          </div>
+        </div>
+
+        <div class="portfolio__card" style="width: 18rem;">
+          <a href="https://elexpendedor.netlify.app/">
+            <img src="/img/expendedor.png" class="card-img-top" alt="...">
+          </a>
+            <div class="card-body">
+            <h5 class="card-title">El Expendedor</h5>
+            <p class="card-text">Un proyecto para expendedores/kioscos estudiantiles.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body">2023</small>
+          </div>
+        </div>
+
+        <div class="portfolio__card" style="width: 18rem;">
+          <img src="/img/shop.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">App Shop</h5>
+            <p class="card-text">Una aplicacion E-commerse indumentario hecho con React Js completo.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body">2023</small>
+          </div>
+        </div>
+
+        <div class="portfolio__card" style="width: 18rem;">
+          <a href="https://coderqr.netlify.app/">
+            <img src="/img/qr.png" class="card-img-top" alt="...">
+          </a>
+            <div class="card-body">
+            <h5 class="card-title">QR genereitor</h5>
+            <p class="card-text">Generador de codigos QR.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body">2023</small>
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+  <!------------------------------------------------------------------CERTIFICADOS -->
+
+    <div class="container" id="certificates"  >
+      <div class="services__title flex flex-column gap-3 text-center">
+        <h2 class="text-3xl md:text-5xl">Certificados</h2>
+        <p class="text-sm md:text-base">
+        Algunos de mis Certificados en tecnologias
+        </p>
+      </div>
+      <section class="certificates" >
+        <div class="proyect__gallery ">
+          <div class="gallery__categories mb-2 mt-2">
+            <ul class="flex list-none flex-wrap justify-content-center gap-1">
+              <li class="filter-item active" data-filter="all">Todas</li>
+              <li class="filter-item " data-filter="CoderHouse">CoderHouse</li>
+              <li class="filter-item " data-filter="Gobierno">Gob BA</li>
+              <li class="filter-item " data-filter="Google">Google</li>
+            </ul>
+          </div>
+          <div class="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3">
+            <div class="project__card CoderHouse">
+              <img src="./img/certificado-web.png" alt="">
+              <div class="overlay"></div>
+              <div
+                class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                <h2>Desarrollo Web</h2>
+                <p>Enmaquetado de HTML, CSS, SCSS, Servidores y SEO
+                </p>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+            </div>
+            <div class="project__card CoderHouse">
+              <img src="./img/certificado-js.png" alt="">
+              <div class="overlay"></div>
+              <div
+                class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                <h2>javascript</h2>
+                <p>Control de flujos, Ciclos e iteraciones, Funciones, Objetos, Arrays, Funciones de orden superior, DOM, Eventos, Storage & JSON, Asincronía y promesas, Ajax & Fetch, Frameworks & NodeJS
+                </p>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+            </div>
+            <div class="project__card CoderHouse">
+              <img src="./img/certificado-react.png" alt="">
+              <div class="overlay"></div>
+              <div
+                class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                <h2>React Js</h2>
+                <p>JSX y transpiling, Componentes, Promises, asincronía y MAP, API's, Routing y navegación, Técnicas de rendering, Firebase
+                </p>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+            </div>
+            <div class="project__card Gobierno">
+              <img src="./img/seguridad-1.jpg" alt="">
+              <div class="overlay"></div>
+              <div
+                class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                <h2>Ciberseguridad 1</h2>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+            </div>
+            <div class="project__card Gobierno">
+              <img src="./img/seguridad-2.jpg" alt="">
+              <div class="overlay"></div>
+              <div
+                class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                <h2>Ciberseguridad 2</h2>
+                <span><i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  <!----------------------------------------------------------FREE LANCER SECTION -->
+
+    <section class="freelancer mb-4 mt-4 min-w-full flex flex-column justify-content-center align-items-center">
+      <p class="text-sm">Tienes un proyecto en mente?</p>
+      <h1 class="text-center">Auténtico e innovador con un enfoque en usabilidad y rendimiento</h1>
+      <div class="hireMe__button pt-4">
+      <a href="mailTo:facundonahuel.ciullo@gmail.com" aria-label="Enviar mensaje al correo"
+        class=" cursor-pointer no-underline border-round-lg">Escríbeme</a>
+      </div>
+    </section>
+
+      <!-------------------------------------------------------------FOOTER -->
+
+      <footer class="min-h-full w-full flex grid col-12 justify-content-center pb-8 pt-8 lg:text-center">
+        <div class="social__media col-12 md:col-4 flex flex-column justify-content-between">
+          <h2>Redes sociales</h2>
+          <p>Disponible como freelancer</p>
+          <p>Tienes un proyecto en mente?</p>
+          <div class="social__mediaIcons mt-5 flex lg:justify-content-center gap-3">
+            <a href="https://www.linkedin.com/in/facundo-ciullo/" target="_blank" aria-label="Ir a linkedin">
+              <i class="fa-brands bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/FacundoCiullo" target="_blank" aria-label="Ir a github">
+              <i class="fa-brands bi bi-github"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Ir a instagram">
+              <i class="fa-brands bi bi-instagram"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5491136968683&text=Hola! me gustaría pedir información sobre servicios web." target="_blank" aria-label="Ir a whatsapp">
+              <i class="fa-brands bi bi-whatsapp"></i>
+            </a>
+
+          </div>
+        </div>
+        <div id="contact"  
+        class="contact col-12 sm:col-6 sm:pt-0 md:pt-2 md:col-4 flex flex-column justify-content-between md:align-items-center">
+          <h2>Contacto</h2>
+          <div class="phone__number flex align-items-center gap-2">
+            <i class="fa-solid fa-phone"></i>
+            <p>+539 11 36968683</p>
+          </div>
+          <div class="email flex align-items-center gap-2">
+            <i class="fa-solid fa-envelope"></i>
+            <p>facundonahuel.ciullo@gmail.com</p>
+          </div>
+          <a href="mailTo:facundonahuel.ciullo@gmail.com"
+            class="cursor-pointer text-center col-4 sm:col-6 xl:col-4 mt-3 no-underline border-round-lg">
+            <span>
+              <i class="fa-solid fa-message"></i>
+            </span>Escríbeme
+          </a>
+        </div>
+        <div class="my__services col-12 sm:col-6 sm:p-0 md:col-4 md:pt-2 md:align-items-center flex flex-column justify-content-between">
+          <h2>Mis Servicios</h2>
+          <p>Desarrollo web</p>
+          <p>Desarrollo móvil</p>
+          <p>Diseñador gráfico</p>
+          <P>Marketing Digital</P>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+.graphic{
+  position: relative;
+  display: grid;
+  padding-top: 3rem;
+  grid-template-columns: 1fr 85%;
+  border-radius: 50%;
+  position: relative; /* Permite que los elementos internos sean posicionados de forma absoluta */
+  overflow: hidden; /* Evita el desbordamiento de los elementos absolutos */
+}
+
+.graphic:hover{
+  transform: scale(1.2);
+  transition: all 0.2s ease-in;
+}
+
+.graphic-circles,
+.graphic-logo,
+.graphic-circles-1,
+.graphic-circles-2 {
+  position: absolute; /* Posiciona los elementos de forma absoluta */
+}
+
+.graphic-man{
+  width: 100%;
+  opacity: 0%;
+  border-radius: 50%;
+  grid-column-start: 2;
+}
+
+.graphic-logo{
+  border-radius: 50%;
+}
+
+.graphic-go{
+  position: absolute;
+  width: 25%;
+  mix-blend-mode: screen;
+  top: 34%;
+  right: 60%;
+  transform: rotate(10g);
+}
+
+.graphic-energy{
+  animation: turn1 10s linear infinite;
+}
+
+@keyframes turn1 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes turn2 {
+  to {
+    transform: rotate(-1turn);
+  }
+}
+
+.graphic-circles-1{
+  animation: turn1 26s linear infinite;
+}
+
+.graphic-circles-2{
+  animation: turn2 26s linear infinite;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.graphic-circles{
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.graphic-circles img{
+  width: 100%;
+  height: 100%;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

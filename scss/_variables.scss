@@ -1,0 +1,122 @@
+
+
+[data-theme="light"] {
+  --primary: #000000;
+  --secondary: #ff4900;
+  --bg-primary: #b4b4b4;
+  --bg-secondary: #21201f;
+  --bg-terciary: #383838;
+  --text-primary: #000000;
+  --text-secondary: #ff4900;
+}
+
+[data-theme="dark"] {
+  --primary: #ff4900;
+  --secondary: #222222;
+  --bg-primary: #21201f;
+  --bg-secondary: #383838;
+  --bg-terciary: #ff4900;
+  --text-primary: #ffffff;
+  --text-secondary: #ffffff;
+}
+
+:root {
+  --clr-black: rgb(0, 0, 0);
+  --clr-dark: #21201f;
+  --clr-gray-dark: #383838;
+  --clr-gray: #5f605d;
+  --clr-gray-white: #727271;
+  --clr-white: #ececec;
+  --clr-red: #cd4444;
+  --clr-orange: #ff4900;
+  --clr-green:  #18a362;
+  --clr-blue: #3d71d1c1;
+  --text: #ffffff;
+  --bg-color: #000;
+  --font-color: #fff;
+  --secondary-bg-color: #ff4900;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  max-width: 100vw;
+}
+
+
+p, h1, h2{
+  color: var(--text-primary);
+}
+
+
+h3{
+  color: var(--text);
+  font-size: 14px;
+}
+
+.container {
+  padding: 0rem 8rem;
+  width: fit-content;
+}
+
+@media screen and (max-width: 992px) {
+  .container{
+      padding: 1rem 0;
+
+  }
+}
+
+.container {
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+  max-width: 100%; /* Ajusta el ancho máximo al 100% */
+  padding: 0 1rem; /* Ajusta los márgenes laterales para evitar el desbordamiento */
+}
+
+.home__page,
+.about__me,
+.services,
+.portfolio,
+.certificates,
+.freelancer {
+  padding-left: 5rem; /* Ajusta el padding izquierdo para evitar el desbordamiento */
+  padding-right: 1rem; /* Ajusta el padding derecho para evitar el desbordamiento */
+}
+
+.home__page {
+  justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+
+
+.container,
+.home__page,
+.about__me,
+.services,
+.portfolio,
+.certificates,
+.freelancer {
+  width: 100%; /* Ajusta el ancho al 100% */
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 1rem; /* Ajusta el padding izquierdo para evitar el desbordamiento */
+    padding-right: 1rem; /* Ajusta los márgenes laterales para dispositivos móviles */
+  }
+  .home__page,
+  .about__me,
+  .services,
+  .portfolio,
+  .certificates,
+  .freelancer {
+    padding-left: 1rem; /* Ajusta el padding izquierdo para evitar el desbordamiento */
+    padding-right: 1rem; /* Ajusta el padding derecho para evitar el desbordamiento */
+  }
+}

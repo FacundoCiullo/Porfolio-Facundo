@@ -1,0 +1,35 @@
+/* ------- FOOTER -------- */
+
+
+:is(.social__media, .contact, .my__services) h3 {
+  margin-bottom: 1rem;
+}
+
+:is(.social__media, .contact, .my__services) p,
+:is(.fa-phone, .fa-envelope, .fa-message, .fa-brands) {
+  color: var(--text-primary);
+}
+
+.social__mediaIcons .fa-brands {
+  font-size: 2rem;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.social__mediaIcons .fa-brands:hover {
+  color: var(--clr-orange);
+}
+.contact a {
+  padding: 0.5rem 1.8rem;
+  background-color: unset;
+  border: 1px solid var(--secondary-bg-color);
+  font-family: var(--font);
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+@media screen and (max-width: 768px) {
+  .contact a{
+    padding: 0.5rem 0rem;
+  }
+}
